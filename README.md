@@ -29,41 +29,21 @@ python3 cli.py
 
 This will start the CLI interface and display a list of available commands.
 
-Commands
+# Commands
 CommandFit supports the following commands:
 
 register: Register a new user account.
-login: Log in to an existing user account.
-logout: Log out from the current user session.
-create-plan: Create a new workout plan.
-view-plan: View details of a specific workout plan.
-log-exercise: Log exercises completed during a workout session.
+view all users.
+delete a user.
 set-goal: Set fitness goals.
 help: View the help menu.
-Configuration
+
+# Configuration
 CommandFit does not require any configuration. However, users can customize settings such as database connections or default workout plans by modifying the config.py file.
 
-python
-
-# Sample configuration file (config.py)
-
-DATABASE_URI = 'sqlite:///commandfit.db'
-DEFAULT_WORKOUT_PLAN = 'beginner_plan'
-Examples
-Here are some examples of how to use CommandFit:
 
 
-# Register a new user
-python3 cli.py register
 
-# Log in to an existing user account
-python3 cli.py login
-
-# Create a new workout plan
-python3 cli.py create-plan
-
-# Log exercises completed during a workout session
-python3 cli.py log-exercise
 
 # Contributing
 Contributions to CommandFit are welcome! If you encounter any bugs or have suggestions for new features, please open an issue on the GitHub repository. Pull requests are also encouraged.
