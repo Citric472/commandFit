@@ -41,10 +41,6 @@ help: View the help menu.
 # Configuration
 CommandFit does not require any configuration. However, users can customize settings such as database connections or default workout plans by modifying the config.py file.
 
-
-
-
-
 # Contributing
 Contributions to CommandFit are welcome! If you encounter any bugs or have suggestions for new features, please open an issue on the GitHub repository. Pull requests are also encouraged.
 
