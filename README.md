@@ -45,4 +45,6 @@ CommandFit does not require any configuration. However, users can customize sett
 Contributions to CommandFit are welcome! If you encounter any bugs or have suggestions for new features, please open an issue on the GitHub repository. Pull requests are also encouraged.
 
 # License
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
+# Project management tool
+I used Trello for project management. This is my link https://trello.com/invite/b/0kiVSHJ5/ATTIaee29f8f16ae2065ff659104158a839372B88EDC/commandfit.
