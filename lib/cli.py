@@ -82,6 +82,19 @@ def delete_user():
     else:
         print("Error: User with ID {} not found.".format(user_id))
 
+def view_plans():
+    print("Viewing available workout plans...")
+    conn = sqlite3.connect('commandfit.db')
+    c = conn.cursor()
+    c.execute("SELECT * FROM workout_plans")
+    plans = c.fetchall()
+    if plans:
+        print("Available Workout Plans:")
+        for plan in plans:
+            print(f"ID: {plan[0]}, Name: {plan[2]}")
+    else:
+        print("No workout plans found.")
+
 
 
 # def view_plan():
@@ -132,8 +145,9 @@ Available commands:
 1. Register a new user
 2. View all users
 3. Delete user
-4. Set fitness goals
-5. View help menu
+4. View plan          
+5. Set fitness goals
+6. View help menu
     """)
 
 def main():
@@ -151,8 +165,10 @@ def main():
         elif choice == '3':
             delete_user()
         elif choice == '4':
-           set_goal()
+            view_plans()
         elif choice == '5':
+           set_goal()
+        elif choice == '6':
             help_menu()
         
         

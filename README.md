@@ -35,6 +35,7 @@ CommandFit supports the following commands:
 register: Register a new user account.
 view all users.
 delete a user.
+view plans.
 set-goal: Set fitness goals.
 help: View the help menu.
 
